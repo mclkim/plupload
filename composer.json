@@ -1,0 +1,35 @@
+{
+  "name": "mclkim/plupload",
+  "description": "",
+  "type": "library",
+  "keywords": [
+    "plupload"
+  ],
+  "license": "MIT",
+  "homepage": "http://mclkim.github.com",
+  "support": {
+    "issues": "https://github.com/mclkim/plupload/issues",
+    "source": "https://github.com/mclkim/plupload"
+  },
+  "authors": [
+    {
+      "name": "Kim myung chul",
+      "email": "mclkims@gmail.com"
+    }
+  ],
+  "replace": {
+  },
+  "require": {
+    "php": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Plupload\\": "src/"
+    },
+    "classmap": [
+      "src/Plupload/PluploadHandler.php"
+    ],
+    "files": [
+    ]
+  }
+}
